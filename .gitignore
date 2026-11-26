@@ -1,0 +1,36 @@
+# Local connection settings and secrets
+.env
+.env.*
+!.env.example
+backup.env
+!backup.env.example
+.pgpass
+pgpass.conf
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Database backups and private exports
+*.backup
+*.dump
+*.pgdump
+*.7z
+*.zip
+*.tar
+*.tar.gz
+backups/
+Backups/
+exports/
+private/
+local/
+
+# Supabase local state
+supabase/.temp/
+supabase/.branches/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
