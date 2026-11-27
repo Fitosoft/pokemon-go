@@ -32,6 +32,6 @@ Kind chat or config; expected 0 for creation, otherwise current revision. Actor 
 
 Public reconstruction stays building and contains no private configuration. Populate local roles and all nine keys only after reviewing the schema and explicitly authorizing pilot writes; publish the local full contract before release. The reader can inspect tables but cannot execute the context or publication functions. The original deployment passed sequential revision, retry, stale/conflicting request, direct update rejection, unknown identity and refreshed context checks; true concurrent tests remain deferred.
 
-## Next extension
+## Shared mailbox
 
-A shared mailbox for informational messages and work requests is planned, not implemented. Proactively identify relevant cross-role work, defer irreversible recommendations when necessary, and explain pending handoffs to the player. No automatic chat activation.
+The context now includes pending messages, tasks and results. See [Shared mailbox](mailbox.md). No automatic chat activation.

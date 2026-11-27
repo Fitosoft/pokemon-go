@@ -74,3 +74,4 @@ end $$;
 create trigger guard_mailbox_write before insert or update or delete or truncate on pogo_meta.chat_messages for each statement execute function pogo_meta.guard_mailbox_write();
 create trigger guard_mailbox_write before insert or update or delete or truncate on pogo_meta.chat_message_history for each statement execute function pogo_meta.guard_mailbox_write();
 revoke all on function pogo_meta.write_chat_message(text,text,text,uuid,integer,jsonb),pogo_meta.guard_mailbox_write() from public,anon,authenticated,service_role,pogo_reader;
+

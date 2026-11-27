@@ -1,4 +1,4 @@
-# Data model — schema 0.3.0
+# Data model — schema 0.4.0
 
 The migration files define exact types, constraints and privileges.
 
@@ -57,3 +57,7 @@ Resources and movements, strategic goals, planned actions, decisions, assessment
 ## Project organization
 
 `pogo_meta.project_chats` and `pogo_meta.project_config` store current and historical revisions. See [Project context](project-context.md).
+
+## Shared mailbox
+
+`pogo_meta.chat_messages` stores current state; `pogo_meta.chat_message_history` stores atomic operation history. See [Shared mailbox](mailbox.md).

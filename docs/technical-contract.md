@@ -1,4 +1,4 @@
-# Public technical contract reference — 0.4.0
+# Public technical contract reference — 0.5.0
 
 This is a generalized reference, not the runtime contract of any particular installation. Configure and publish the local contract in Supabase before enabling writes.
 
@@ -37,3 +37,7 @@ Take an independent native backup before structural or bulk changes. Verify migr
 ## Project context
 
 Use `SELECT pogo_meta.get_chat_context('01');` with the actual chat identifier. See [Project context](project-context.md) for controlled revision publication and initialization requirements.
+
+## Shared mailbox
+
+See [Shared mailbox](mailbox.md) for controlled transitions and context retrieval.

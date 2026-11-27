@@ -30,3 +30,7 @@
 ## ADR 011 — Centralize project context (Accepted)
 
 Keep only stable bootstrap rules and chat identity in prompts. Store versioned roles, shared rules and ownership matrices in PostgreSQL; retrieve current context before relevant work. Preserve private content outside public Git history. Prioritize a shared mailbox next.
+
+## ADR 012 — Unify messages and work requests (Accepted)
+
+Use a common mailbox with explicit lifecycle transitions, audit and acknowledgement. Retrieve pending work through the existing context API rather than introducing a scheduler or automatic chat activation.

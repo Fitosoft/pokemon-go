@@ -1,5 +1,12 @@
 # Changelog
 
+## Schema 0.4.0 / contract 0.5.0 — 2026-11-27
+
+- Add shared informational messages and work requests with controlled transitions and history.
+- Return pending incoming tasks, outgoing tasks and unacknowledged results in context.
+- Verify sequential lifecycle, retry, conflict, role and context checks.
+
+
 ## Schema 0.3.0 / contract 0.4.0 — 2026-11-27
 
 - Add versioned project roles and shared configuration with controlled publication.
