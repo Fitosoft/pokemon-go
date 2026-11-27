@@ -1,4 +1,5 @@
--- Approved structural migration; pending deployment and validation.
+-- Public structural migration; deployed and validated in reference instance.
+-- Private chat/configuration seeds are deliberately excluded.
 create table pogo_meta.project_chats (
  chat_id text not null check(chat_id ~ '^[0-9]{2}$'), version integer not null check(version>0),
  display_name text not null check(btrim(display_name)<>''), status text not null check(status in ('planned','active','temporary','retired')),

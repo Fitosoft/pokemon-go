@@ -1,5 +1,13 @@
 # Changelog
 
+## Schema 0.3.0 / contract 0.4.0 — 2026-11-27
+
+- Add versioned project roles and shared configuration with controlled publication.
+- Provide a stable context retrieval API and required responsibility matrices.
+- Verify sequential revision integrity and preserve existing inventory.
+- Keep private configuration out of the public reconstruction.
+
+
 ## Schema 0.2.2 / contract 0.3.2 — 2026-11-26
 
 - Establish R2 inventory operation after independent pilot verification.

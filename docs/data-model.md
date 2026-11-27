@@ -1,4 +1,4 @@
-# Data model — schema 0.2.2
+# Data model — schema 0.3.0
 
 The migration files define exact types, constraints and privileges.
 
@@ -53,3 +53,7 @@ Each observation stores the field name, JSONB observed value, source type/refere
 ## Planned extensions
 
 Resources and movements, strategic goals, planned actions, decisions, assessments, research, events, teams, preferences, Pokédex progress, Max move name/type and temporary Mega/Primal transformations. No tables for these are implied by this roadmap.
+
+## Project organization
+
+`pogo_meta.project_chats` and `pogo_meta.project_config` store current and historical revisions. See [Project context](project-context.md).

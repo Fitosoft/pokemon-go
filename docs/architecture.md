@@ -41,3 +41,7 @@ Application schemas are private with RLS and explicit grants. The mobile reader 
 ## Expansion
 
 Prioritize data that is shared across chats, frequently changes, or is expensive to reconstruct. Planned modules include strategic goals, actions and decisions, resources and movements, assessments, research, events, teams, preferences and temporary transformations. These are not implemented in the R2 baseline.
+
+## Project organization (R2.1)
+
+Versioned chat roles and shared configuration are now implemented. See [Project context](project-context.md). The mailbox remains planned.

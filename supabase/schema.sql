@@ -13,4 +13,6 @@ BEGIN;
 \ir migrations/20261126193401_pogo_pilot_contract.sql
 \ir migrations/20261126213352_pogo_mobile_reader.sql
 \ir migrations/20261126213416_pogo_pilot_release_and_backlog.sql
+\ir migrations/20261127013156_pogo_project_context.sql
+\ir migrations/20261127013255_pogo_project_context_contract.sql
 COMMIT;

@@ -26,3 +26,7 @@
 008: Git records technical changes and reasoning; Supabase retains the live state. Public copies omit private metadata. One main branch and manually applied migrations minimize complexity.
 
 009–010: Implement shared, persistent information before isolated chat conveniences. Retain locking and idempotency, but defer expensive concurrency validation until actual usage warrants it.
+
+## ADR 011 — Centralize project context (Accepted)
+
+Keep only stable bootstrap rules and chat identity in prompts. Store versioned roles, shared rules and ownership matrices in PostgreSQL; retrieve current context before relevant work. Preserve private content outside public Git history. Prioritize a shared mailbox next.

@@ -1,4 +1,4 @@
-# Public technical contract reference — 0.3.2
+# Public technical contract reference — 0.4.0
 
 This is a generalized reference, not the runtime contract of any particular installation. Configure and publish the local contract in Supabase before enabling writes.
 
@@ -33,3 +33,7 @@ Grant the dedicated reader SELECT only, with appropriate RLS policies for every 
 ## Backup and release
 
 Take an independent native backup before structural or bulk changes. Verify migration results and runtime contract consistency before release. Never expose credentials or player data in Git. Expensive true multi-session tests were deferred in the reference project; this is not a concurrency certification.
+
+## Project context
+
+Use `SELECT pogo_meta.get_chat_context('01');` with the actual chat identifier. See [Project context](project-context.md) for controlled revision publication and initialization requirements.
