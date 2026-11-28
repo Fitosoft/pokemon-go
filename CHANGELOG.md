@@ -1,5 +1,16 @@
 # Changelog
 
+## Schema 0.5.1 / contract 0.6.1 — 2026-11-28
+
+- Delegate limited global item additions to the resource lead, with controlled validation.
+
+## Schema 0.5.0 / contract 0.6.0 — 2026-11-28
+
+- Implement resource catalog, balances, history and atomic operations.
+- Separate observations, confirmed movements and reconciliation; expose resource availability in context.
+- Provide optional generic starter definitions; verify sequential ledger integrity.
+
+
 ## Schema 0.4.0 / contract 0.5.0 — 2026-11-27
 
 - Add shared informational messages and work requests with controlled transitions and history.

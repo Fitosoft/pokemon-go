@@ -12,13 +12,14 @@ An unofficial, independent project exploring how multiple AI-assisted specialist
 
 ## Current baseline
 
-Schema **0.4.0**, technical contract **0.5.0**, architecture milestone **R2.1**. The original deployment passed a small inventory pilot. The public reconstruction intentionally starts in `building`, with no player inventory and no automatic release.
+Schema **0.5.1**, technical contract **0.6.1**, architecture milestone **R2.1**. The original deployment passed a small inventory pilot. The public reconstruction intentionally starts in `building`, with no player inventory and no automatic release.
 
 ## Documentation
 
 - [Architecture](docs/architecture.md)
 - [Project context](docs/project-context.md)
 - [Shared mailbox](docs/mailbox.md)
+- [Resource ledger](docs/resources.md)
 - [Data model](docs/data-model.md)
 - [Technical contract](docs/technical-contract.md)
 - [Development workflow](docs/development-workflow.md)

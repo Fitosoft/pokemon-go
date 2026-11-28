@@ -1,4 +1,4 @@
-# Data model — schema 0.4.0
+# Data model — schema 0.5.1
 
 The migration files define exact types, constraints and privileges.
 
@@ -61,3 +61,7 @@ Resources and movements, strategic goals, planned actions, decisions, assessment
 ## Shared mailbox
 
 `pogo_meta.chat_messages` stores current state; `pogo_meta.chat_message_history` stores atomic operation history. See [Shared mailbox](mailbox.md).
+
+## Resources
+
+Four resource tables separate definitions, current balances, history and atomic operations. See [Resource ledger](resources.md).

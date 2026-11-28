@@ -18,4 +18,9 @@ BEGIN;
 \ir migrations/20261127020047_pogo_chat_mailbox.sql
 \ir migrations/20261127020100_pogo_mailbox_context.sql
 \ir migrations/20261127020118_pogo_mailbox_contract.sql
+\ir migrations/20261128113942_pogo_resource_ledger.sql
+\ir migrations/20261128114022_pogo_resource_context.sql
+\ir migrations/20261128114038_pogo_resource_contract.sql
+\ir migrations/20261128114418_pogo_resource_catalog_delegation.sql
+\ir migrations/20261128114431_pogo_resource_catalog_delegation_contract.sql
 COMMIT;

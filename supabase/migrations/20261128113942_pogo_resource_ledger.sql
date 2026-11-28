@@ -204,3 +204,4 @@ grant select on pogo.resource_operations to pogo_reader;
 create policy mobile_reader_select on pogo.resource_operations for select to pogo_reader using(true);
 create trigger guard_resource_write before insert or update or delete or truncate on pogo.resource_operations for each statement execute function pogo.guard_resource_write();
 revoke all on function pogo.publish_resource_catalog(text,text,jsonb),pogo.write_resource_batch(text,text,jsonb),pogo.get_resource_overview(),pogo.guard_resource_write() from public,anon,authenticated,service_role,pogo_reader;
+

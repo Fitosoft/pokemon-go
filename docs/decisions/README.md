@@ -34,3 +34,7 @@ Keep only stable bootstrap rules and chat identity in prompts. Store versioned r
 ## ADR 012 — Unify messages and work requests (Accepted)
 
 Use a common mailbox with explicit lifecycle transitions, audit and acknowledgement. Retrieve pending work through the existing context API rather than introducing a scheduler or automatic chat activation.
+
+## ADR 013 — Separate the resource ledger from inventory (Accepted)
+
+Keep confirmed observations and movements auditable without requiring a Pokémon reference. Maintain stable shared resource pools and distinguish unresolved reconciliation from known movements. Delegate only simple catalog additions to the resource lead; retain technical ownership of pool mappings and rules.

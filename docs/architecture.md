@@ -45,3 +45,7 @@ Prioritize data that is shared across chats, frequently changes, or is expensive
 ## Project organization (R2.1)
 
 Versioned chat roles and shared configuration are now implemented. See [Project context](project-context.md). The [shared mailbox](mailbox.md) now supports asynchronous coordination during active chat turns.
+
+## Resource ledger
+
+Shared resource observations and confirmed movements are implemented without modifying the inventory tables. Planned spending remains separate. See [Resource ledger](resources.md).

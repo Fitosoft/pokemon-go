@@ -35,3 +35,7 @@ Public reconstruction stays building and contains no private configuration. Popu
 ## Shared mailbox
 
 The context now includes pending messages, tasks and results. See [Shared mailbox](mailbox.md). No automatic chat activation.
+
+## Resources
+
+The context advertises the resources module. Retrieve balances separately with `pogo.get_resource_overview()`. See [Resource ledger](resources.md).

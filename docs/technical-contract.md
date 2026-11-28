@@ -1,4 +1,4 @@
-# Public technical contract reference — 0.5.0
+# Public technical contract reference — 0.6.1
 
 This is a generalized reference, not the runtime contract of any particular installation. Configure and publish the local contract in Supabase before enabling writes.
 
@@ -41,3 +41,7 @@ Use `SELECT pogo_meta.get_chat_context('01');` with the actual chat identifier. 
 ## Shared mailbox
 
 See [Shared mailbox](mailbox.md) for controlled transitions and context retrieval.
+
+## Resources
+
+See [Resource ledger](resources.md) for controlled catalog and balance operations, evidence requirements and delegation boundaries.
